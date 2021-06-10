@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="gainsboro">#DCCD</color>
+    <color name="snow4">#8b8989</color>
+    <color name="Black">#000000</color>
+    <color name="White">#ffffff</color>
+    <color name="snow3">#cdc9c9</color>
+    <color name="Red">#FF0000</color>
+    <color name="DimGray">#696969</color>
+    <color name="Aquamarine">#7fffd4</color>
+    <color name="Yellow">#ffff00</color>
+    <color name="SpringGreen">#00ff7f</color>
+    <color name="DeepSKyBlure">#00BFFF</color>
+</resources>

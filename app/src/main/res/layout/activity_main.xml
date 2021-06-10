@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_jarijariatom"
+                android:layout_width="109dp"
+                android:layout_height="37dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="4dp"
+                android:text="Jari-Jari Atom ?"
+                android:onClick="tampilkanJA"
+                android:textSize="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/searchFilter"
+                app:layout_constraintEnd_toEndOf="@+id/listview" />
+
+            <Button
+                android:id="@+id/btn_afinitaselektron"
+                android:layout_width="109dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Afinitas Elektron ?"
+                android:onClick="tampilkanAE"
+                android:textSize="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/searchFilter"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="45dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/ic_search_black_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/searchFilter"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/searchFilter"
+                android:layout_width="234dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="250dp"
+                android:hint="@string/hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@id/searchFilter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchFilter"></ListView>
+
+            <Button
+                android:id="@+id/btn_energiionisasi"
+                android:layout_width="109dp"
+                android:layout_height="37dp"
+                android:text="Energi Ionisasi ?"
+                android:onClick="tampilkanEI"
+                android:textSize="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_afinitaselektron"
+                app:layout_constraintEnd_toEndOf="@+id/btn_afinitaselektron" />
+
+            <Button
+                android:id="@+id/btn_karakterlogam"
+                android:layout_width="109dp"
+                android:layout_height="37dp"
+                android:text="Karakter Logam ?"
+                android:onClick="tampilkanKL"
+                android:textSize="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_jarijariatom"
+                app:layout_constraintEnd_toEndOf="@+id/btn_jarijariatom" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

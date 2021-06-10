@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.aitpuk20.ZoomLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/zoomLayout"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="114dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="660dp"
+            android:layout_height="712dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="50dp"
+            android:foregroundGravity="center"
+            android:rotation="90"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:context=".tbl_periodik">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Actinida"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_Ac"
+                app:layout_constraintEnd_toEndOf="@+id/textView22"
+                app:layout_constraintStart_toStartOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/btn_La" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Lantanida"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_La"
+                app:layout_constraintEnd_toStartOf="@+id/btn_La"
+                app:layout_constraintTop_toTopOf="@+id/btn_La"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_O"
+                app:layout_constraintEnd_toEndOf="@+id/btn_O" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_N"
+                app:layout_constraintEnd_toEndOf="@+id/btn_N" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IVA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_C"
+                app:layout_constraintEnd_toEndOf="@+id/btn_C" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Cu"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Cu" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Ni"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Ni" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Co"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Co" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Mn"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Mn" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_V"
+                app:layout_constraintEnd_toEndOf="@+id/btn_V" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IVB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Ti"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Ti" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IIIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Sc"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Sc" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IIA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Be"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Be" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIIA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_He"
+                app:layout_constraintEnd_toEndOf="@+id/btn_He" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_F"
+                app:layout_constraintEnd_toEndOf="@+id/btn_F" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IIIA"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_B"
+                app:layout_constraintEnd_toEndOf="@+id/btn_B" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="IIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Zn"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Zn" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIIIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Fe"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Fe" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="25dp"
+                android:layout_height="12dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="VIB"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Cr"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Cr" />
+
+            <ImageView
+                android:id="@+id/gasmulia"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Og"
+                app:layout_constraintTop_toBottomOf="@+id/halogen"
+                app:srcCompat="@drawable/gasmulia" />
+
+            <ImageView
+                android:id="@+id/halogen"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Og"
+                app:layout_constraintTop_toBottomOf="@+id/nonlogam"
+                app:srcCompat="@drawable/halogen" />
+
+            <ImageView
+                android:id="@+id/nonlogam"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Og"
+                app:layout_constraintTop_toBottomOf="@+id/metaloid"
+                app:srcCompat="@drawable/nonlogam" />
+
+            <ImageView
+                android:id="@+id/metaloid"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Rn"
+                app:layout_constraintTop_toBottomOf="@+id/logampascatransisi"
+                app:srcCompat="@drawable/metaloid" />
+
+            <ImageView
+                android:id="@+id/logampascatransisi"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Xe"
+                app:layout_constraintTop_toBottomOf="@+id/aktinida"
+                app:srcCompat="@drawable/logampascatransisi" />
+
+            <ImageView
+                android:id="@+id/aktinida"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Xe"
+                app:layout_constraintTop_toBottomOf="@+id/lantanida"
+                app:srcCompat="@drawable/aktinida" />
+
+            <ImageView
+                android:id="@+id/lantanida"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Kr"
+                app:layout_constraintTop_toBottomOf="@+id/logamtransisi"
+                app:srcCompat="@drawable/lantanida" />
+
+            <ImageView
+                android:id="@+id/logamtransisi"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ne"
+                app:layout_constraintTop_toBottomOf="@+id/logamalkalitanah"
+                app:srcCompat="@drawable/logamtransisi" />
+
+            <ImageView
+                android:id="@+id/logamalkalitanah"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ne"
+                app:layout_constraintTop_toBottomOf="@+id/logamalkali"
+                app:srcCompat="@drawable/logamalkalitanah" />
+
+            <ImageView
+                android:id="@+id/logamalkali"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="64dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_He"
+                app:layout_constraintTop_toTopOf="@+id/btn_He"
+                app:srcCompat="@drawable/logamalkali" />
+
+            <ImageView
+                android:id="@+id/btn_Lr"
+                android:onClick="ShowPopupLawrensium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_No"
+                app:layout_constraintTop_toTopOf="@+id/btn_No"
+                app:srcCompat="@drawable/lawrencium" />
+
+            <ImageView
+                android:id="@+id/btn_Lu"
+                android:onClick="ShowPopupLutesium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Yb"
+                app:layout_constraintTop_toTopOf="@+id/btn_Yb"
+                app:srcCompat="@drawable/lutetium" />
+
+            <ImageView
+                android:id="@+id/btn_Yb"
+                android:onClick="ShowPopupIterbium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Tm"
+                app:layout_constraintTop_toTopOf="@+id/btn_Tm"
+                app:srcCompat="@drawable/ytterbium" />
+
+            <ImageView
+                android:id="@+id/btn_No"
+                android:onClick="ShowPopupNobelium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Md"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Tm"
+                app:srcCompat="@drawable/nobelium" />
+
+            <ImageView
+                android:id="@+id/btn_Md"
+                android:onClick="ShowPopupMendelevium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Fm"
+                app:layout_constraintTop_toTopOf="@+id/btn_Fm"
+                app:srcCompat="@drawable/mendelevium" />
+
+            <ImageView
+                android:id="@+id/btn_Tm"
+                android:onClick="ShowPopupTulium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Er"
+                app:layout_constraintTop_toTopOf="@+id/btn_Er"
+                app:srcCompat="@drawable/thulium" />
+
+            <ImageView
+                android:id="@+id/btn_Er"
+                android:onClick="ShowPopupErbium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ho"
+                app:layout_constraintTop_toTopOf="@+id/btn_Ho"
+                app:srcCompat="@drawable/erbium" />
+
+            <ImageView
+                android:id="@+id/btn_Fm"
+                android:onClick="ShowPopupFermium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Es"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ho"
+                app:srcCompat="@drawable/fermium" />
+
+            <ImageView
+                android:id="@+id/btn_Es"
+                android:onClick="ShowPopupEinsteinium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cf"
+                app:layout_constraintTop_toTopOf="@+id/btn_Cf"
+                app:srcCompat="@drawable/einsteinium" />
+
+            <ImageView
+                android:id="@+id/btn_Ho"
+                android:onClick="ShowPopupHolmium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Dy"
+                app:layout_constraintTop_toTopOf="@+id/btn_Dy"
+                app:srcCompat="@drawable/holmium" />
+
+            <ImageView
+                android:id="@+id/btn_Dy"
+                android:onClick="ShowPopupDisprosium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Tb"
+                app:layout_constraintTop_toTopOf="@+id/btn_Tb"
+                app:srcCompat="@drawable/dysprosium" />
+
+            <ImageView
+                android:id="@+id/btn_Cf"
+                android:onClick="ShowPopupKalifornium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Bk"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Tb"
+                app:srcCompat="@drawable/californium" />
+
+            <ImageView
+                android:id="@+id/btn_Bk"
+                android:onClick="ShowPopupBerkelium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cm"
+                app:layout_constraintTop_toTopOf="@+id/btn_Cm"
+                app:srcCompat="@drawable/berkelium" />
+
+            <ImageView
+                android:id="@+id/btn_Tb"
+                android:onClick="ShowPopupTerbium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Gd"
+                app:layout_constraintTop_toTopOf="@+id/btn_Gd"
+                app:srcCompat="@drawable/terbium" />
+
+            <ImageView
+                android:id="@+id/btn_Gd"
+                android:onClick="ShowPopupGadolinium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Eu"
+                app:layout_constraintTop_toTopOf="@+id/btn_Eu"
+                app:srcCompat="@drawable/gadolinium" />
+
+            <ImageView
+                android:id="@+id/btn_Cm"
+                android:onClick="ShowPopupCurium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Am"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Eu"
+                app:srcCompat="@drawable/curium" />
+
+            <ImageView
+                android:id="@+id/btn_Am"
+                android:onClick="ShowPopupAmericium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pu"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Sm"
+                app:srcCompat="@drawable/americium" />
+
+            <ImageView
+                android:id="@+id/btn_Eu"
+                android:onClick="ShowPopupEuropium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sm"
+                app:layout_constraintTop_toTopOf="@+id/btn_Sm"
+                app:srcCompat="@drawable/europium" />
+
+            <ImageView
+                android:id="@+id/btn_Pu"
+                android:onClick="ShowPopupPlutonium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Np"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Pm"
+                app:srcCompat="@drawable/plutonium" />
+
+            <ImageView
+                android:id="@+id/btn_Sm"
+                android:onClick="ShowPopupSamarium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pm"
+                app:layout_constraintTop_toTopOf="@+id/btn_Pm"
+                app:srcCompat="@drawable/samarium" />
+
+            <ImageView
+                android:id="@+id/btn_Np"
+                android:onClick="ShowPopupNeptunium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_U"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Nd"
+                app:srcCompat="@drawable/neptunium" />
+
+            <ImageView
+                android:id="@+id/btn_Pm"
+                android:onClick="ShowPopupPrometium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Nd"
+                app:layout_constraintTop_toTopOf="@+id/btn_Nd"
+                app:srcCompat="@drawable/promethium" />
+
+            <ImageView
+                android:id="@+id/btn_U"
+                android:onClick="ShowPopupUranium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pa"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Pr"
+                app:srcCompat="@drawable/uranium" />
+
+            <ImageView
+                android:id="@+id/btn_Nd"
+                android:onClick="ShowPopupNeodimium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pr"
+                app:layout_constraintTop_toTopOf="@+id/btn_Pr"
+                app:srcCompat="@drawable/neodymium" />
+
+            <ImageView
+                android:id="@+id/btn_Pa"
+                android:onClick="ShowPopupProtaktinium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Th"
+                app:layout_constraintTop_toTopOf="@+id/btn_Th"
+                app:srcCompat="@drawable/protactinium" />
+
+            <ImageView
+                android:id="@+id/btn_Pr"
+                android:onClick="ShowPopupPraseodimium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ce"
+                app:layout_constraintTop_toTopOf="@+id/btn_Ce"
+                app:srcCompat="@drawable/praseodymium" />
+
+            <ImageView
+                android:id="@+id/btn_Ce"
+                android:onClick="ShowPopupSerium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_La"
+                app:layout_constraintTop_toTopOf="@+id/btn_La"
+                app:srcCompat="@drawable/cerium" />
+
+            <ImageView
+                android:id="@+id/btn_Th"
+                android:onClick="ShowPopupTorium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ac"
+                app:layout_constraintTop_toBottomOf="@+id/btn_La"
+                app:srcCompat="@drawable/thorium" />
+
+            <ImageView
+                android:id="@+id/btn_Ac"
+                android:onClick="ShowPopupAktinium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="@+id/btn_La"
+                app:layout_constraintStart_toStartOf="@+id/btn_La"
+                app:layout_constraintTop_toBottomOf="@+id/btn_La"
+                app:srcCompat="@drawable/actinium" />
+
+            <ImageView
+                android:id="@+id/btn_La"
+                android:onClick="ShowPopupLantanum"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ra"
+                app:srcCompat="@drawable/lanthanum" />
+
+            <ImageView
+                android:id="@+id/btn_He"
+                android:onClick="ShowPopupHelium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Ne"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Ne"
+                app:srcCompat="@drawable/helium" />
+
+            <ImageView
+                android:id="@+id/btn_Ne"
+                android:onClick="ShowPopupNeon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_F"
+                app:layout_constraintTop_toTopOf="@+id/btn_F"
+                app:srcCompat="@drawable/neon" />
+
+            <ImageView
+                android:id="@+id/btn_Ar"
+                android:onClick="ShowPopupArgon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cl"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ne"
+                app:srcCompat="@drawable/argon" />
+
+            <ImageView
+                android:id="@+id/btn_Kr"
+                android:onClick="ShowPopupKripton"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Br"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ar"
+                app:srcCompat="@drawable/krypton" />
+
+            <ImageView
+                android:id="@+id/btn_Xe"
+                android:onClick="ShowPopupXenon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_I"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Kr"
+                app:srcCompat="@drawable/xenon" />
+
+            <ImageView
+                android:id="@+id/btn_Rn"
+                android:onClick="ShowPopupRadon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_At"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Xe"
+                app:srcCompat="@drawable/radon" />
+
+            <ImageView
+                android:id="@+id/btn_Og"
+                android:onClick="ShowPopupOganeson"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ts"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Rn"
+                app:srcCompat="@drawable/oganesson" />
+
+            <ImageView
+                android:id="@+id/btn_F"
+                android:onClick="ShowPopupFluor"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_O"
+                app:layout_constraintTop_toTopOf="@+id/btn_O"
+                app:srcCompat="@drawable/fluorine" />
+
+            <ImageView
+                android:id="@+id/btn_Cl"
+                android:onClick="ShowPopupKlorin"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_S"
+                app:layout_constraintTop_toBottomOf="@+id/btn_F"
+                app:srcCompat="@drawable/chlorine" />
+
+            <ImageView
+                android:id="@+id/btn_Br"
+                android:onClick="ShowPopupBromin"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Se"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Cl"
+                app:srcCompat="@drawable/bromine" />
+
+            <ImageView
+                android:id="@+id/btn_I"
+                android:onClick="ShowPopupIodin"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Te"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Br"
+                app:srcCompat="@drawable/iodine" />
+
+            <ImageView
+                android:id="@+id/btn_At"
+                android:onClick="ShowPopupAstatin"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Po"
+                app:layout_constraintTop_toBottomOf="@+id/btn_I"
+                app:srcCompat="@drawable/astatine" />
+
+            <ImageView
+                android:id="@+id/btn_Ts"
+                android:onClick="ShowPopupTenesin"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Lv"
+                app:layout_constraintTop_toBottomOf="@+id/btn_At"
+                app:srcCompat="@drawable/tennessine" />
+
+            <ImageView
+                android:id="@+id/btn_O"
+                android:onClick="ShowPopupOksigen"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_N"
+                app:layout_constraintTop_toTopOf="@+id/btn_N"
+                app:srcCompat="@drawable/oxygen" />
+
+            <ImageView
+                android:id="@+id/btn_S"
+                android:onClick="ShowPopupBelerang"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_P"
+                app:layout_constraintTop_toBottomOf="@+id/btn_O"
+                app:srcCompat="@drawable/sulfur" />
+
+            <ImageView
+                android:id="@+id/btn_Se"
+                android:onClick="ShowPopupSelenium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_As"
+                app:layout_constraintTop_toBottomOf="@+id/btn_S"
+                app:srcCompat="@drawable/selenium" />
+
+            <ImageView
+                android:id="@+id/btn_Te"
+                android:onClick="ShowPopupTelurium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sb"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Se"
+                app:srcCompat="@drawable/tellurium" />
+
+            <ImageView
+                android:id="@+id/btn_Po"
+                android:onClick="ShowPopupPolonium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Bi"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Te"
+                app:srcCompat="@drawable/polonium" />
+
+            <ImageView
+                android:id="@+id/btn_Lv"
+                android:onClick="ShowPopupLivermorium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Mc"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Po"
+                app:srcCompat="@drawable/livermorium" />
+
+            <ImageView
+                android:id="@+id/btn_N"
+                android:onClick="ShowPopupNitrogen"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_C"
+                app:layout_constraintTop_toTopOf="@+id/btn_C"
+                app:srcCompat="@drawable/nitrogen" />
+
+            <ImageView
+                android:id="@+id/btn_P"
+                android:onClick="ShowPopupFosfor"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Si"
+                app:layout_constraintTop_toBottomOf="@+id/btn_N"
+                app:srcCompat="@drawable/phosphorus" />
+
+            <ImageView
+                android:id="@+id/btn_As"
+                android:onClick="ShowPopupArsen"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ge"
+                app:layout_constraintTop_toBottomOf="@+id/btn_P"
+                app:srcCompat="@drawable/arsenic" />
+
+            <ImageView
+                android:id="@+id/btn_Sb"
+                android:onClick="ShowPopupAntimon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sn"
+                app:layout_constraintTop_toBottomOf="@+id/btn_As"
+                app:srcCompat="@drawable/antimony" />
+
+            <ImageView
+                android:id="@+id/btn_Bi"
+                android:onClick="ShowPopupBismut"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pb"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Sb"
+                app:srcCompat="@drawable/bismuth" />
+
+            <ImageView
+                android:id="@+id/btn_Mc"
+                android:onClick="ShowPopupMoskovium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Fl"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Bi"
+                app:srcCompat="@drawable/moscovium" />
+
+            <ImageView
+                android:id="@+id/btn_C"
+                android:onClick="ShowPopupKarbon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_B"
+                app:layout_constraintTop_toTopOf="@+id/btn_B"
+                app:srcCompat="@drawable/carbon" />
+
+            <ImageView
+                android:id="@+id/btn_Si"
+                android:onClick="ShowPopupSilikon"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Al"
+                app:layout_constraintTop_toBottomOf="@+id/btn_C"
+                app:srcCompat="@drawable/silicon" />
+
+            <ImageView
+                android:id="@+id/btn_Ge"
+                android:onClick="ShowPopupGermanium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ga"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Si"
+                app:srcCompat="@drawable/germanium" />
+
+            <ImageView
+                android:id="@+id/btn_Sn"
+                android:onClick="ShowPopupTimah"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_In"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ge"
+                app:srcCompat="@drawable/tin" />
+
+            <ImageView
+                android:id="@+id/btn_Pb"
+                android:onClick="ShowPopupTimbal"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Tl"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Sn"
+                app:srcCompat="@drawable/lead" />
+
+            <ImageView
+                android:id="@+id/btn_Fl"
+                android:onClick="ShowPopupFlerovium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Nh"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Pb"
+                app:srcCompat="@drawable/flerovium" />
+
+            <ImageView
+                android:id="@+id/btn_B"
+                android:onClick="ShowPopupBoron"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Al"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Al"
+                app:layout_constraintStart_toStartOf="@+id/btn_Al"
+                app:srcCompat="@drawable/boron" />
+
+            <ImageView
+                android:id="@+id/btn_Al"
+                android:onClick="ShowPopupAluminium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Ga"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Ga"
+                app:srcCompat="@drawable/aluminum" />
+
+            <ImageView
+                android:id="@+id/btn_Ga"
+                android:onClick="ShowPopupGalium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_In"
+                app:layout_constraintStart_toEndOf="@+id/btn_Zn"
+                app:srcCompat="@drawable/gallium" />
+
+            <ImageView
+                android:id="@+id/btn_In"
+                android:onClick="ShowPopupIndium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Tl"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cd"
+                app:srcCompat="@drawable/indium" />
+
+            <ImageView
+                android:id="@+id/btn_Tl"
+                android:onClick="ShowPopupTalium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Nh"
+                app:layout_constraintStart_toEndOf="@+id/btn_Hg"
+                app:srcCompat="@drawable/thallium" />
+
+            <ImageView
+                android:id="@+id/btn_Nh"
+                android:onClick="ShowPopupNihonium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_Cn"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cn"
+                app:srcCompat="@drawable/nihonium" />
+
+            <ImageView
+                android:id="@+id/btn_Zn"
+                android:onClick="ShowPopupSeng"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cu"
+                app:layout_constraintTop_toTopOf="@+id/btn_Cu"
+                app:srcCompat="@drawable/zinc" />
+
+            <ImageView
+                android:id="@+id/btn_Cd"
+                android:onClick="ShowPopupKadmium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ag"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Zn"
+                app:srcCompat="@drawable/cadmium" />
+
+            <ImageView
+                android:id="@+id/btn_Hg"
+                android:onClick="ShowPopupRaksa"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Au"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Cd"
+                app:srcCompat="@drawable/mercury" />
+
+            <ImageView
+                android:id="@+id/btn_Cn"
+                android:onClick="ShowPopupKopernisium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Rg"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Hg"
+                app:srcCompat="@drawable/copernicium" />
+
+            <ImageView
+                android:id="@+id/btn_Cu"
+                android:onClick="ShowPopupTembaga"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ni"
+                app:layout_constraintTop_toTopOf="@+id/btn_Ni"
+                app:srcCompat="@drawable/copper" />
+
+            <ImageView
+                android:id="@+id/btn_Ag"
+                android:onClick="ShowPopupPerak"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pd"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Cu"
+                app:srcCompat="@drawable/silver" />
+
+            <ImageView
+                android:id="@+id/btn_Au"
+                android:onClick="ShowPopupEmas"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pt"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ag"
+                app:srcCompat="@drawable/gold" />
+
+            <ImageView
+                android:id="@+id/btn_Rg"
+                android:onClick="ShowPopupRoentgenium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ds"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Au"
+                app:srcCompat="@drawable/roentgenium" />
+
+            <ImageView
+                android:id="@+id/btn_Ni"
+                android:onClick="ShowPopupNikel"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Co"
+                app:layout_constraintTop_toTopOf="@+id/btn_Co"
+                app:srcCompat="@drawable/nickel" />
+
+            <ImageView
+                android:id="@+id/btn_Pd"
+                android:onClick="ShowPopupPaladium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Rh"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ni"
+                app:srcCompat="@drawable/palladium" />
+
+            <ImageView
+                android:id="@+id/btn_Pt"
+                android:onClick="ShowPopupPlatina"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ir"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Pd"
+                app:srcCompat="@drawable/platinum" />
+
+            <ImageView
+                android:id="@+id/btn_Ds"
+                android:onClick="ShowPopupDarmstadtium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Mt"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Pt"
+                app:srcCompat="@drawable/darmstadtium" />
+
+            <ImageView
+                android:id="@+id/btn_Co"
+                android:onClick="ShowPopupKobalt"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Fe"
+                app:layout_constraintTop_toTopOf="@+id/btn_Fe"
+                app:srcCompat="@drawable/cobalt" />
+
+            <ImageView
+                android:id="@+id/btn_Rh"
+                android:onClick="ShowPopupRodium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ru"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Co"
+                app:srcCompat="@drawable/rhodium" />
+
+            <ImageView
+                android:id="@+id/btn_Ir"
+                android:onClick="ShowPopupIridium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Os"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Rh"
+                app:srcCompat="@drawable/iridium" />
+
+            <ImageView
+                android:id="@+id/btn_Mt"
+                android:onClick="ShowPopupMeitnerium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Hs"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ir"
+                app:srcCompat="@drawable/meitnerium" />
+
+            <ImageView
+                android:id="@+id/btn_Fe"
+                android:onClick="ShowPopupBesi"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Mn"
+                app:layout_constraintTop_toTopOf="@+id/btn_Mn"
+                app:srcCompat="@drawable/iron" />
+
+            <ImageView
+                android:id="@+id/btn_Ru"
+                android:onClick="ShowPopupRuthenium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Tc"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Fe"
+                app:srcCompat="@drawable/ruthenium" />
+
+            <ImageView
+                android:id="@+id/btn_Os"
+                android:onClick="ShowPopupOsmium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Re"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ru"
+                app:srcCompat="@drawable/osmium" />
+
+            <ImageView
+                android:id="@+id/btn_Hs"
+                android:onClick="ShowPopupHassium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Bh"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Os"
+                app:srcCompat="@drawable/hassium" />
+
+            <ImageView
+                android:id="@+id/btn_Mn"
+                android:onClick="ShowPopupMangan"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cr"
+                app:layout_constraintTop_toTopOf="@+id/btn_Cr"
+                app:srcCompat="@drawable/manganese" />
+
+            <ImageView
+                android:id="@+id/btn_Tc"
+                android:onClick="ShowPopupTeknesium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Mo"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Mn"
+                app:srcCompat="@drawable/technetium" />
+
+            <ImageView
+                android:id="@+id/btn_Re"
+                android:onClick="ShowPopupRenium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_W"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Tc"
+                app:srcCompat="@drawable/rhenium" />
+
+            <ImageView
+                android:id="@+id/btn_Bh"
+                android:onClick="ShowPopupBohrium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sg"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Re"
+                app:srcCompat="@drawable/bohrium" />
+
+            <ImageView
+                android:id="@+id/btn_Cr"
+                android:onClick="ShowPopupKromium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_V"
+                app:layout_constraintTop_toTopOf="@+id/btn_V"
+                app:srcCompat="@drawable/chromium" />
+
+            <ImageView
+                android:id="@+id/btn_Mo"
+                android:onClick="ShowPopupMolibdenum"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Nb"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Cr"
+                app:srcCompat="@drawable/molybdenum" />
+
+            <ImageView
+                android:id="@+id/btn_W"
+                android:onClick="ShowPopupWolfram"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ta"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Mo"
+                app:srcCompat="@drawable/tungsten" />
+
+            <ImageView
+                android:id="@+id/btn_Sg"
+                android:onClick="ShowPopupSeaborgium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Db"
+                app:layout_constraintTop_toBottomOf="@+id/btn_W"
+                app:srcCompat="@drawable/seaborgium" />
+
+            <ImageView
+                android:id="@+id/btn_V"
+                android:onClick="ShowPopupVanadium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ti"
+                app:layout_constraintTop_toTopOf="@+id/btn_Ti"
+                app:srcCompat="@drawable/vanadium" />
+
+            <ImageView
+                android:id="@+id/btn_Nb"
+                android:onClick="ShowPopupNiobium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Zr"
+                app:layout_constraintTop_toBottomOf="@+id/btn_V"
+                app:srcCompat="@drawable/niobium" />
+
+            <ImageView
+                android:id="@+id/btn_Ta"
+                android:onClick="ShowPopupTantalum"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Hf"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Nb"
+                app:srcCompat="@drawable/tantalum" />
+
+            <ImageView
+                android:id="@+id/btn_Db"
+                android:onClick="ShowPopupDubnium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Rf"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ta"
+                app:srcCompat="@drawable/dubnium" />
+
+            <ImageView
+                android:id="@+id/btn_Ti"
+                android:onClick="ShowPopupTitanium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sc"
+                app:layout_constraintTop_toTopOf="@+id/btn_Sc"
+                app:srcCompat="@drawable/titanium" />
+
+            <ImageView
+                android:id="@+id/btn_Zr"
+                android:onClick="ShowPopupZirkonium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Y"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ti"
+                app:srcCompat="@drawable/zirconium" />
+
+            <ImageView
+                android:id="@+id/btn_Hf"
+                android:onClick="ShowPopupHafnium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_57-51"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Zr"
+                app:srcCompat="@drawable/hafnium" />
+
+            <ImageView
+                android:id="@+id/btn_Rf"
+                android:onClick="ShowPopupRutherfordium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_89-103"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Hf"
+                app:srcCompat="@drawable/rutherfordium" />
+
+            <ImageView
+                android:id="@+id/btn_Sc"
+                android:onClick="ShowPopupSkandium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ca"
+                app:layout_constraintTop_toTopOf="@+id/btn_Ca"
+                app:srcCompat="@drawable/scandium" />
+
+            <ImageView
+                android:id="@+id/btn_Y"
+                android:onClick="ShowPopupItrium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Sr"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Sc"
+                app:srcCompat="@drawable/yttrium" />
+
+            <ImageView
+                android:id="@+id/btn_57-51"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ba"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Y"
+                app:srcCompat="@drawable/a" />
+
+            <ImageView
+                android:id="@+id/btn_89-103"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Ra"
+                app:layout_constraintTop_toBottomOf="@+id/btn_57-51"
+                app:srcCompat="@drawable/b" />
+
+            <ImageView
+                android:id="@+id/btn_Ra"
+                android:onClick="ShowPopupRadium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="@+id/btn_Ba"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ba"
+                app:srcCompat="@drawable/radium" />
+
+            <ImageView
+                android:id="@+id/btn_Ba"
+                android:onClick="ShowPopupBarium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Cs"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Sr"
+                app:srcCompat="@drawable/barium" />
+
+            <ImageView
+                android:id="@+id/btn_Sr"
+                android:onClick="ShowPopupStrontium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Rb"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ca"
+                app:srcCompat="@drawable/strontium" />
+
+            <ImageView
+                android:id="@+id/btn_Ca"
+                android:onClick="ShowPopupKalsium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="@+id/btn_Mg"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Mg"
+                app:srcCompat="@drawable/calcium" />
+
+            <ImageView
+                android:id="@+id/btn_Mg"
+                android:onClick="ShowPopupMagnesium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="@+id/btn_Be"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Be"
+                app:srcCompat="@drawable/magnesium" />
+
+            <ImageView
+                android:id="@+id/btn_Be"
+                android:onClick="ShowPopupBerilium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btn_Li"
+                app:layout_constraintTop_toTopOf="@+id/btn_Li"
+                app:srcCompat="@drawable/berrylium" />
+
+            <ImageView
+                android:id="@+id/btn_H"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="32dp"
+                android:layout_weight="1"
+                android:onClick="ShowPopupHidrogen"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hidrogen6" />
+
+            <ImageView
+                android:id="@+id/btn_Li"
+                android:onClick="ShowPopupLithium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="@+id/btn_H"
+                app:layout_constraintStart_toStartOf="@+id/btn_H"
+                app:layout_constraintTop_toBottomOf="@+id/btn_H"
+                app:srcCompat="@drawable/lithium6" />
+
+            <ImageView
+                android:id="@+id/btn_Na"
+                android:onClick="ShowPopupNatrium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toStartOf="@+id/btn_Be"
+                app:layout_constraintStart_toStartOf="@+id/btn_Li"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Li"
+                app:srcCompat="@drawable/sodium" />
+
+            <ImageView
+                android:id="@+id/btn_K"
+                android:onClick="ShowPopupKalium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Na"
+                app:layout_constraintStart_toStartOf="@+id/btn_Na"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Na"
+                app:srcCompat="@drawable/kalium" />
+
+            <ImageView
+                android:id="@+id/btn_Rb"
+                android:onClick="ShowPopupRubidium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toStartOf="@+id/btn_Ca"
+                app:layout_constraintStart_toStartOf="@+id/btn_K"
+                app:layout_constraintTop_toBottomOf="@+id/btn_K"
+                app:srcCompat="@drawable/rubidium" />
+
+            <ImageView
+                android:id="@+id/btn_Cs"
+                android:onClick="ShowPopupSesium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Rb"
+                app:layout_constraintStart_toStartOf="@+id/btn_Rb"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Rb"
+                app:srcCompat="@drawable/cesium" />
+
+            <ImageView
+                android:id="@+id/btn_Fr"
+                android:onClick="ShowPopupFransium"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="@+id/btn_Cs"
+                app:layout_constraintStart_toStartOf="@+id/btn_Cs"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Cs"
+                app:srcCompat="@drawable/francium" />
+
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="IA"
+            android:textColor="@android:color/black"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/btn_H"
+            app:layout_constraintEnd_toEndOf="@+id/btn_H"
+            app:layout_constraintStart_toStartOf="@+id/btn_H" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</com.example.aitpuk20.ZoomLayout>
